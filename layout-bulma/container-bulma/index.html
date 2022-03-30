@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://bulma.io/vendor/fontawesome-free-5.15.2-web/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="notification is-primary">
+      This container is <strong>centered</strong> on desktop and larger viewports.
+    </div>
+  </div>
+
+  <div class="container is-widescreen">
+    <div class="notification is-primary">
+      This container is <strong>fullwidth</strong> <em>until</em> the <code>$widescreen</code> breakpoint.
+    </div>
+  </div>
+
+  <div class="container is-fullhd">
+    <div class="notification is-primary">
+      This container is <strong>fullwidth</strong> <em>until</em> the <code>$fullhd</code> breakpoint.
+    </div>
+  </div>
+
+  <div class="container is-max-desktop">
+    <div class="notification is-primary">
+      This container has a <code>max-width</code> of <code>$desktop - $container-offset</code> on widescreen and fullhd.
+    </div>
+  </div>
+
+  <div class="container is-max-widescreen">
+    <div class="notification is-primary">
+      This container has a <code>max-width</code> of <code>$widescreen - $container-offset</code> on fullhd.
+    </div>
+  </div>
+
+  <div class="container is-fluid">
+    <div class="notification is-primary">
+      This container is <strong>fluid</strong>: it will have a 32px gap on either side, on any
+      viewport size.
+    </div>
+  </div>
+    
+
+<script src="https://bulma.io/vendor/js.cookie-2.1.4.min.js"></script>
+<script src="https://bulma.io/lib/main.js?v=202107101157"></script>
+
+
+</body>
+</html>
